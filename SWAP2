@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+int a=5,b=10,temp;
+clrscr();
+printf("before swaping %d/n%d",a,b);
+temp=a;
+a=b;
+b=temp;
+printf("after swapping %d/n%d",a,b);
+getch();
+}

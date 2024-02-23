@@ -1,0 +1,29 @@
+#include<stdio.h>
+void main()
+{
+int sum_even=0,sum_odd=0,e_count=0,o_count=0,i;
+clrscr();
+for(i=1;i<=10;i++)
+{
+if(i%2==0)
+{
+printf("even numbers are %d",i);
+sum_even=sum_even+i;
+e_count++;
+}
+}
+printf("even numberscount=%d\n",e_count);
+printf("even numbers sum=%d\n",sum_even);
+for(i=1;i<=10;i++)
+{
+if(i%2!=0)
+{
+printf("odd numbers=%d",i);
+sum_odd=sum_odd+i;
+o_count++;
+}
+}
+printf("odd numbers count=%d\n",o_count);
+printf("odd numbers sum=%d\n",sum_odd);
+getch();
+}
